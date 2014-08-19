@@ -10,6 +10,7 @@
 #define __jump__LoadScene__
 
 #include "cocos2d.h"
+#include "ProgressLayer.h"
 
 class Load : public cocos2d::Layer{
 public:
@@ -20,6 +21,8 @@ public:
     //初始化场景
     virtual bool init() override;
     
+    //加载资源进度
+    void loading(float f);
     //游戏资源加载完成，回调此方法
     void loadedCallback();
     
@@ -43,6 +46,11 @@ public:
             return NULL;
         }
     }*/
+    
+private:
+    //Node *role{nullptr};
+    ProgressLayer* progressLayer;
+    cocos2d::Vec2 center;
 };
 
 #endif /* defined(__jump__LoadScene__) */
