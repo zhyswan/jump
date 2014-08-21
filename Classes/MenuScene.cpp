@@ -38,7 +38,7 @@ bool MenuScene::init(){
     
     Layer * startBtn = Layer::create();
     startBtn->addChild(draw);
-    startBtn->setPosition(Vec2(480, 320));
+    startBtn->setPosition(VisibleRect::center());
  
     
     /*MenuItemSprite默认锚点为Vec2(0.5,0.5)*/
