@@ -23,8 +23,9 @@ public:
     
 private:
     cocos2d::DrawNode * pDraw;
-    float width;
-    float height;
+    cocos2d::LabelTTF* label;
+    float proWidth;
+    float proHeight{2};
 };
 
 #endif /* defined(__jump__HorizontalProgressLayer__) */

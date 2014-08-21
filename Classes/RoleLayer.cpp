@@ -20,14 +20,14 @@ bool RoleLayer::init(){
 }
 
 void RoleLayer::draw(cocos2d::Renderer *renderer, const cocos2d::Mat4 &transform, uint32_t flags){
-    CCLOG("RoleLayer::draw");
+    //CCLOG("RoleLayer::draw");
     _customCommand.init(1);
     _customCommand.func = CC_CALLBACK_0(RoleLayer::onDraw, this,transform,flags);
     renderer->addCommand(&_customCommand);
 }
 
 void RoleLayer::onDraw(const cocos2d::Mat4& transform, uint32_t flags){
-    CCLOG("RoleLayer::onDraw");
+    //CCLOG("RoleLayer::onDraw");
     Director* director = Director::getInstance();
     director->pushMatrix(MATRIX_STACK_TYPE::MATRIX_STACK_MODELVIEW);
     director->loadMatrix(MATRIX_STACK_TYPE::MATRIX_STACK_MODELVIEW, transform);

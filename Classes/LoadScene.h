@@ -12,7 +12,7 @@
 #include "cocos2d.h"
 #include "ProgressLayer.h"
 
-class Load : public cocos2d::Layer{
+class LoadScene : public cocos2d::Layer{
 public:
     //创建场景，并将当前layer添加到场景
     static cocos2d::Scene * createScene();
@@ -28,7 +28,7 @@ public:
     
     
     //定义create静态方法
-    CREATE_FUNC(Load);
+    CREATE_FUNC(LoadScene);
     //CREATE_FUNC在此作用同下
     /*
     static Load * create()
@@ -50,7 +50,6 @@ public:
 private:
     //Node *role{nullptr};
     ProgressLayer* progressLayer;
-    cocos2d::Vec2 center;
 };
 
 #endif /* defined(__jump__LoadScene__) */

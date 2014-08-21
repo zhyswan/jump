@@ -19,7 +19,7 @@ bool RoleSprite::init(){
     role->cocos2d::Node::draw();
     role->onDraw(Mat4(), 1);
     //画线段，
-    //参数：起点，终点，粗细，颜色
+    //参数：起点，终点，粗细的一半（既端点的半径），颜色
     //role->drawSegment(Vec2(-100,-100), Vec2(200,200), 10, Color4F(0.1, 0.2, 0.3, 1));
     
     //二次贝塞尔曲线

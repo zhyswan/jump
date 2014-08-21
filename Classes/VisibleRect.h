@@ -2,7 +2,9 @@
 #define __VISIBLERECT_H__
 
 #include "cocos2d.h"
-
+/**
+ 真实分辨率
+ */
 class VisibleRect
 {
 public:

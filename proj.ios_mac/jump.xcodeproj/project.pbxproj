@@ -62,14 +62,18 @@
 		50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629517ECD46A001EB2F8 /* Icon-100.png */; };
 		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
+		9810E5DE19A5A3AA000D78DA /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9810E5DC19A5A3AA000D78DA /* MenuScene.cpp */; };
+		9810E5DF19A5A3AA000D78DA /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9810E5DC19A5A3AA000D78DA /* MenuScene.cpp */; };
 		984D316C19A1E2F7007D9456 /* RoleSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 984D316A19A1E2F7007D9456 /* RoleSprite.cpp */; };
 		984D316D19A1E2F7007D9456 /* RoleSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 984D316A19A1E2F7007D9456 /* RoleSprite.cpp */; };
 		987D4680199CCBC9006D205E /* LoadScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 987D467E199CCBC9006D205E /* LoadScene.cpp */; };
 		987D4681199CCBC9006D205E /* LoadScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 987D467E199CCBC9006D205E /* LoadScene.cpp */; };
-		98954C2719A38FBF001833A8 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98954C2519A38FBF001833A8 /* MainScene.cpp */; };
-		98954C2819A38FBF001833A8 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98954C2519A38FBF001833A8 /* MainScene.cpp */; };
+		98954C2719A38FBF001833A8 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98954C2519A38FBF001833A8 /* GameScene.cpp */; };
+		98954C2819A38FBF001833A8 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98954C2519A38FBF001833A8 /* GameScene.cpp */; };
 		98954C3319A397C2001833A8 /* HorizontalProgressLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98954C3119A397C2001833A8 /* HorizontalProgressLayer.cpp */; };
 		98954C3419A397C2001833A8 /* HorizontalProgressLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98954C3119A397C2001833A8 /* HorizontalProgressLayer.cpp */; };
+		98D4166019A45C5900D6390B /* ToString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D4165E19A45C5900D6390B /* ToString.cpp */; };
+		98D4166119A45C5900D6390B /* ToString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D4165E19A45C5900D6390B /* ToString.cpp */; };
 		98E4CEBA19A319FE0058A5BD /* RoleLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98E4CEB819A319FE0058A5BD /* RoleLayer.cpp */; };
 		98E4CEBB19A319FE0058A5BD /* RoleLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98E4CEB819A319FE0058A5BD /* RoleLayer.cpp */; };
 		98E4CEC419A3238C0058A5BD /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98E4CEC219A3238C0058A5BD /* VisibleRect.cpp */; };
@@ -272,15 +276,19 @@
 		50EF629517ECD46A001EB2F8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
 		50EF62A017ECD613001EB2F8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		9810E5DC19A5A3AA000D78DA /* MenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuScene.cpp; path = ../Classes/MenuScene.cpp; sourceTree = "<group>"; };
+		9810E5DD19A5A3AA000D78DA /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuScene.h; path = ../Classes/MenuScene.h; sourceTree = "<group>"; };
 		984D316A19A1E2F7007D9456 /* RoleSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RoleSprite.cpp; path = ../Classes/RoleSprite.cpp; sourceTree = "<group>"; };
 		984D316B19A1E2F7007D9456 /* RoleSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoleSprite.h; path = ../Classes/RoleSprite.h; sourceTree = "<group>"; };
 		987D467E199CCBC9006D205E /* LoadScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoadScene.cpp; path = ../Classes/LoadScene.cpp; sourceTree = "<group>"; };
 		987D467F199CCBC9006D205E /* LoadScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadScene.h; path = ../Classes/LoadScene.h; sourceTree = "<group>"; };
-		98954C2519A38FBF001833A8 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainScene.cpp; path = ../Classes/MainScene.cpp; sourceTree = "<group>"; };
-		98954C2619A38FBF001833A8 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScene.h; path = ../Classes/MainScene.h; sourceTree = "<group>"; };
+		98954C2519A38FBF001833A8 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../Classes/GameScene.cpp; sourceTree = "<group>"; };
+		98954C2619A38FBF001833A8 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../Classes/GameScene.h; sourceTree = "<group>"; };
 		98954C2C19A3951C001833A8 /* ProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressLayer.h; path = ../Classes/ProgressLayer.h; sourceTree = "<group>"; };
 		98954C3119A397C2001833A8 /* HorizontalProgressLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HorizontalProgressLayer.cpp; path = ../Classes/HorizontalProgressLayer.cpp; sourceTree = "<group>"; };
 		98954C3219A397C2001833A8 /* HorizontalProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HorizontalProgressLayer.h; path = ../Classes/HorizontalProgressLayer.h; sourceTree = "<group>"; };
+		98D4165E19A45C5900D6390B /* ToString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToString.cpp; path = ../Classes/ToString.cpp; sourceTree = "<group>"; };
+		98D4165F19A45C5900D6390B /* ToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToString.h; path = ../Classes/ToString.h; sourceTree = "<group>"; };
 		98E4CEB819A319FE0058A5BD /* RoleLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RoleLayer.cpp; path = ../Classes/RoleLayer.cpp; sourceTree = "<group>"; };
 		98E4CEB919A319FE0058A5BD /* RoleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoleLayer.h; path = ../Classes/RoleLayer.h; sourceTree = "<group>"; };
 		98E4CEC219A3238C0058A5BD /* VisibleRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VisibleRect.cpp; path = ../Classes/VisibleRect.cpp; sourceTree = "<group>"; };
@@ -361,21 +369,12 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9810E5E019A5A527000D78DA /* test */,
+				9810E5D919A5A355000D78DA /* scenes */,
+				98D4165B19A45BF800D6390B /* tools */,
 				98954C3019A39774001833A8 /* progress */,
-				98E4CEC219A3238C0058A5BD /* VisibleRect.cpp */,
-				98E4CEC319A3238C0058A5BD /* VisibleRect.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
-				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
-				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
-				987D467E199CCBC9006D205E /* LoadScene.cpp */,
-				987D467F199CCBC9006D205E /* LoadScene.h */,
-				984D316A19A1E2F7007D9456 /* RoleSprite.cpp */,
-				984D316B19A1E2F7007D9456 /* RoleSprite.h */,
-				98E4CEB819A319FE0058A5BD /* RoleLayer.cpp */,
-				98E4CEB919A319FE0058A5BD /* RoleLayer.h */,
-				98954C2519A38FBF001833A8 /* MainScene.cpp */,
-				98954C2619A38FBF001833A8 /* MainScene.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -410,8 +409,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				15AA9C4015B7EC450033D6C2 /* Classes */,
+				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				080E96DDFE201D6D7F000001 /* ios */,
 				503AE10617EB990700D1A890 /* mac */,
@@ -499,6 +498,32 @@
 			path = ../Resources;
 			sourceTree = "<group>";
 		};
+		9810E5D919A5A355000D78DA /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				98954C2519A38FBF001833A8 /* GameScene.cpp */,
+				98954C2619A38FBF001833A8 /* GameScene.h */,
+				987D467E199CCBC9006D205E /* LoadScene.cpp */,
+				987D467F199CCBC9006D205E /* LoadScene.h */,
+				9810E5DC19A5A3AA000D78DA /* MenuScene.cpp */,
+				9810E5DD19A5A3AA000D78DA /* MenuScene.h */,
+			);
+			name = scenes;
+			sourceTree = "<group>";
+		};
+		9810E5E019A5A527000D78DA /* test */ = {
+			isa = PBXGroup;
+			children = (
+				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
+				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
+				98E4CEB819A319FE0058A5BD /* RoleLayer.cpp */,
+				98E4CEB919A319FE0058A5BD /* RoleLayer.h */,
+				984D316A19A1E2F7007D9456 /* RoleSprite.cpp */,
+				984D316B19A1E2F7007D9456 /* RoleSprite.h */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
 		98954C3019A39774001833A8 /* progress */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,6 +532,17 @@
 				98954C3219A397C2001833A8 /* HorizontalProgressLayer.h */,
 			);
 			name = progress;
+			sourceTree = "<group>";
+		};
+		98D4165B19A45BF800D6390B /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				98E4CEC219A3238C0058A5BD /* VisibleRect.cpp */,
+				98E4CEC319A3238C0058A5BD /* VisibleRect.h */,
+				98D4165E19A45C5900D6390B /* ToString.cpp */,
+				98D4165F19A45C5900D6390B /* ToString.h */,
+			);
+			name = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -714,12 +750,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
-				98954C2719A38FBF001833A8 /* MainScene.cpp in Sources */,
+				9810E5DE19A5A3AA000D78DA /* MenuScene.cpp in Sources */,
+				98954C2719A38FBF001833A8 /* GameScene.cpp in Sources */,
 				98954C3319A397C2001833A8 /* HorizontalProgressLayer.cpp in Sources */,
 				984D316C19A1E2F7007D9456 /* RoleSprite.cpp in Sources */,
 				98E4CEC419A3238C0058A5BD /* VisibleRect.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
+				98D4166019A45C5900D6390B /* ToString.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				98E4CEBA19A319FE0058A5BD /* RoleLayer.cpp in Sources */,
 				987D4680199CCBC9006D205E /* LoadScene.cpp in Sources */,
@@ -733,9 +771,11 @@
 			files = (
 				984D316D19A1E2F7007D9456 /* RoleSprite.cpp in Sources */,
 				98954C3419A397C2001833A8 /* HorizontalProgressLayer.cpp in Sources */,
-				98954C2819A38FBF001833A8 /* MainScene.cpp in Sources */,
+				9810E5DF19A5A3AA000D78DA /* MenuScene.cpp in Sources */,
+				98954C2819A38FBF001833A8 /* GameScene.cpp in Sources */,
 				987D4681199CCBC9006D205E /* LoadScene.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
+				98D4166119A45C5900D6390B /* ToString.cpp in Sources */,
 				5087E75817EB910900C73F5D /* HelloWorldScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				98E4CEC519A3238C0058A5BD /* VisibleRect.cpp in Sources */,

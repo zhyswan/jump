@@ -18,8 +18,8 @@ public:
     virtual float getProgress() = 0;
     
 protected:
-    float progress{0};//0-100
-    float total{100};
+    float progress{0};//0-1
+    float total{1};
 };
 
 #endif /* defined(__jump__ProgressLayer__) */
